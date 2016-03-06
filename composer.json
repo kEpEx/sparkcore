@@ -14,16 +14,10 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "psr/log": "1.0.*@dev"
     },
     "autoload": {
         "psr-0": {
             "SparkCore": "lib/"
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0.x-dev"
         }
     }
 }
