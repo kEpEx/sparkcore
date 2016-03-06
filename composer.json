@@ -1,5 +1,5 @@
 {
-    "name": "evertharmeling/sparkcore",
+    "name": "kepex/sparkcore",
     "description": "PHP classes who help interacting with the sparkcore. For example consume Server Side Events.",
     "keywords": ["sparkcore", "spark.io", "sse", "server side events"],
     "homepage": "https://github.com/evertharmeling/sparkcore",
