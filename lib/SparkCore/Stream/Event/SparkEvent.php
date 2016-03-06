@@ -163,7 +163,7 @@ class SparkEvent implements SparkEventInterface
                 ->setPublishedAt($data->published_at)
                 ->setTtl($data->ttl)
                 ->setSparkCoreId($data->coreid)
-                ->setData(json_decode($data->data))
+                ->setData(is_object(json_decode($data->data)) ? json_decode($data->data) : $data->data)
             ;
         }
     }
